@@ -1,0 +1,54 @@
+#main-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:100px 100px 100px;
+    gap: 5px;
+}
+
+#main-container >div {
+border-width: 3px;
+border-radius: 5px;
+
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+background-color: bisque;
+
+}
+
+#item2 {
+    grid-row-start:2 ;
+    grid-row-end: 4;
+    background-color: aquamarine;
+}
+
+#item3 {
+    background-color: blue;
+}
+
+#item4 {
+    background-color: brown;
+}
+
+#item5 {
+    background-color: blueviolet;
+}
+
+#item6 {
+    background-color: chartreuse;
+}
+
+#item7 {
+    background-color: crimson;
+}
+
+#item8 {
+    background-color: darkblue;
+}
+
+#item9 {
+    background-color: darkmagenta;
+}
+
