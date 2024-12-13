@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: rgb(250, 252, 252);
+    color: rgb(3, 3, 3);
+    
+}
+
+header {
+    background-color: black;
+    color: rgb(246, 248, 249);
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+background-color: rgb(145, 56, 56);
+padding: 10px;
+text-align: center;
+}
+
+nav a {
+color: rgb(252, 253, 254);
+margin: 15px;
+font-size: small;
+}
+
+#main-container {
+display: flex;
+margin: 30px;
+gap: 20px;
+
+}
+
+#side-content {
+background-color: rgb(145, 56, 56);
+padding: 20px;
+border-radius: 10px;
+width: 30%;
+
+}
+
+#side-content h3 {
+font-size: medium;
+margin-bottom: 15px;
+color: rgb(251, 251, 252);
+}
+
+#side-content p {
+font-size: smaller;
+line-height: 1.9;
+color: rgb(251, 251, 252);
+
+}
+
+#photo-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 15px;
+}
+
+#photo-container img {
+    width: 100%;
+    border-radius: 10px;
+    grid-column: span 2;
+    grid-column-end: span 2;
+}
