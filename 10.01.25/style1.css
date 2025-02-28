@@ -1,0 +1,27 @@
+.active {
+    background-color: white;
+    font-weight: bolder;
+}
+
+#Tasks_container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3,150px);
+}
+
+.Task{
+    border: 1px;
+    border-color: black;
+}
+
+.Task_date{
+    border: 1px black;
+}
+
+.Task_description{
+    border: 1px black;
+}
+
+.Task_preview{
+    border: 1px black;
+}
